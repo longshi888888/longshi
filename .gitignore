@@ -1,0 +1,63 @@
+# Local secrets: keep only explicitly sanitized templates.
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+*.pfx
+*.p12
+credentials.json
+service-account*.json
+
+# Local databases and backups.
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.dump
+*.bak
+
+# Dependencies, builds and generated installers.
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+target/
+*.egg-info/
+*.exe
+*.msi
+*.msix
+*.dll
+
+# External AI tooling must remain outside this project.
+.agents/
+.codex/
+.claude/
+
+# Temporary and machine-specific files.
+*.log
+*.tmp
+*.temp
+~$*
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Public repository: retain company originals and detailed private evidence locally.
+/之前公司用的软件/
+/人工调研资料/
+/AI调研/资料分析/
+/AI调研/技术验证/旧表单OCR核对记录.json
+/项目放github私有仓库.txt

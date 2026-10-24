@@ -1,0 +1,61 @@
+{
+  "scope": "public synthetic demo only",
+  "excludes_self": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 148,
+      "sha256": "187093c3d2b5a10f5a6da29e6c86d22df1c43e4be899174e1c489c0b29cd386b"
+    },
+    {
+      "path": "app.py",
+      "bytes": 11207,
+      "sha256": "87dde5c00ea0e14d193281c5d86a3ff27ae52918606fb092c49d754470e0d9c4"
+    },
+    {
+      "path": "character-generated.js",
+      "bytes": 4059,
+      "sha256": "0381b63c6c0f8f1f3b610011b92a810be4afca81c4509b6feeb72f7e79494ad7"
+    },
+    {
+      "path": "data.py",
+      "bytes": 4606,
+      "sha256": "75590f50811e0fc85c9f60868c362a52e1f4af9d4e4352c4c7b2600445d52c86"
+    },
+    {
+      "path": "demo-data/synthetic-records.md",
+      "bytes": 479,
+      "sha256": "fa47bb9bc333e852814748e6afdc252ec294f13e6dddeb7f81dbc1045613e84f"
+    },
+    {
+      "path": "model-viewer.html",
+      "bytes": 4087,
+      "sha256": "0974c3b6249598355595e859f9402e189c5486f4d00b3ce2b9e2b1e6a1aa5dcf"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3323,
+      "sha256": "53f6851e8c8d60637c5142d27c8d476ce84babf3e3d7f5acd43eacc93361cbb3"
+    },
+    {
+      "path": "test_app.py",
+      "bytes": 3401,
+      "sha256": "21f4c528d9978c70c9167487d431df5ae17bd93d4b7c881f596e0aa9c45924c6"
+    },
+    {
+      "path": "ui.html",
+      "bytes": 25074,
+      "sha256": "c29d0b98181590cb08767f4abe7ed0e50277cc9d476ef868d41433c7ea0fbfbe"
+    },
+    {
+      "path": "公开核查说明.md",
+      "bytes": 3242,
+      "sha256": "63c714d4922dfcf766f3f86649a0a12bd22cba753d8a42d596c218a299f3b3fa"
+    },
+    {
+      "path": "素材和依赖说明.md",
+      "bytes": 1824,
+      "sha256": "ae7135431f79e8bb0157d1db4cdc0d79dee1e2a4bfa7bfa2072832b995e0548e"
+    }
+  ]
+}

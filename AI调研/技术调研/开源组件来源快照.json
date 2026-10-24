@@ -1,0 +1,460 @@
+{
+  "observed_date": "2026-10-24",
+  "note": "Public GitHub metadata and current branch head, not a selected or recommended production version. Commit date is not the same as last release. SPDX hints are not a full license audit.",
+  "components": [
+    {
+      "repo": "tauri-apps/tauri",
+      "url": "https://github.com/tauri-apps/tauri",
+      "default_branch": "dev",
+      "head_sha": "c464ef928c35d7eedd64bcd5df16b62b3393b7fa",
+      "head_commit_date": "2026-10-23T04:40:39Z",
+      "pushed_at": "2026-10-23T04:47:08Z",
+      "archived": false,
+      "disabled": false,
+      "github_license_hint": "Apache-2.0",
+      "license_check_status": "root_source_license_files_read_not_full_distribution_or_dependency_audit",
+      "metadata_source": "https://api.github.com/repos/tauri-apps/tauri",
+      "commit_source": "https://api.github.com/repos/tauri-apps/tauri/commits?per_page=1",
+      "license_file_checks": [
+        {
+          "path": "LICENSE_MIT",
+          "source": "https://raw.githubusercontent.com/tauri-apps/tauri/c464ef928c35d7eedd64bcd5df16b62b3393b7fa/LICENSE_MIT",
+          "view_url": "https://github.com/tauri-apps/tauri/blob/c464ef928c35d7eedd64bcd5df16b62b3393b7fa/LICENSE_MIT",
+          "status": "failed",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "path": "LICENSE_APACHE",
+          "source": "https://raw.githubusercontent.com/tauri-apps/tauri/c464ef928c35d7eedd64bcd5df16b62b3393b7fa/LICENSE_APACHE",
+          "view_url": "https://github.com/tauri-apps/tauri/blob/c464ef928c35d7eedd64bcd5df16b62b3393b7fa/LICENSE_APACHE",
+          "status": "failed",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "path": "LICENSE-MIT",
+          "source": "https://raw.githubusercontent.com/tauri-apps/tauri/c464ef928c35d7eedd64bcd5df16b62b3393b7fa/LICENSE-MIT",
+          "view_url": "https://github.com/tauri-apps/tauri/blob/c464ef928c35d7eedd64bcd5df16b62b3393b7fa/LICENSE-MIT",
+          "status": "fetched",
+          "sha256": "9dd42ea92cff2ede5cd477cbfcce051b2d0115c0ac7f368ee88cb545055dff1d",
+          "bytes": 1090
+        },
+        {
+          "path": "LICENSE-APACHE-2.0",
+          "source": "https://raw.githubusercontent.com/tauri-apps/tauri/c464ef928c35d7eedd64bcd5df16b62b3393b7fa/LICENSE-APACHE-2.0",
+          "view_url": "https://github.com/tauri-apps/tauri/blob/c464ef928c35d7eedd64bcd5df16b62b3393b7fa/LICENSE-APACHE-2.0",
+          "status": "fetched",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+          "bytes": 10174
+        },
+        {
+          "path": "LICENSE.spdx",
+          "source": "https://raw.githubusercontent.com/tauri-apps/tauri/c464ef928c35d7eedd64bcd5df16b62b3393b7fa/LICENSE.spdx",
+          "view_url": "https://github.com/tauri-apps/tauri/blob/c464ef928c35d7eedd64bcd5df16b62b3393b7fa/LICENSE.spdx",
+          "status": "fetched",
+          "sha256": "5e834fe9788c524210deda859c46a550ffa5aa0cba9ea0572f0d81120e97c008",
+          "bytes": 889
+        }
+      ]
+    },
+    {
+      "repo": "fastapi/fastapi",
+      "url": "https://github.com/fastapi/fastapi",
+      "default_branch": "master",
+      "head_sha": "7a0a3f0b286c6c865cf4398ea0e957a87b8bffa4",
+      "head_commit_date": "2026-10-23T18:45:33Z",
+      "pushed_at": "2026-10-23T23:46:14Z",
+      "archived": false,
+      "disabled": false,
+      "github_license_hint": "MIT",
+      "license_check_status": "root_source_license_files_read_not_full_distribution_or_dependency_audit",
+      "metadata_source": "https://api.github.com/repos/fastapi/fastapi",
+      "commit_source": "https://api.github.com/repos/fastapi/fastapi/commits?per_page=1",
+      "license_file_checks": [
+        {
+          "path": "LICENSE",
+          "source": "https://raw.githubusercontent.com/fastapi/fastapi/7a0a3f0b286c6c865cf4398ea0e957a87b8bffa4/LICENSE",
+          "view_url": "https://github.com/fastapi/fastapi/blob/7a0a3f0b286c6c865cf4398ea0e957a87b8bffa4/LICENSE",
+          "status": "fetched",
+          "sha256": "4ec89ffc81485b97fec584b2d4a961032eeffe834453894fd9c1274906cc744e",
+          "bytes": 1086
+        }
+      ]
+    },
+    {
+      "repo": "pydantic/pydantic",
+      "url": "https://github.com/pydantic/pydantic",
+      "default_branch": "main",
+      "head_sha": "37dc34b4f001191b4f3db707cc52bac95baf17f0",
+      "head_commit_date": "2026-10-23T14:27:40Z",
+      "pushed_at": "2026-10-23T14:58:28Z",
+      "archived": false,
+      "disabled": false,
+      "github_license_hint": "MIT",
+      "license_check_status": "root_source_license_files_read_not_full_distribution_or_dependency_audit",
+      "metadata_source": "https://api.github.com/repos/pydantic/pydantic",
+      "commit_source": "https://api.github.com/repos/pydantic/pydantic/commits?per_page=1",
+      "license_file_checks": [
+        {
+          "path": "LICENSE",
+          "source": "https://raw.githubusercontent.com/pydantic/pydantic/37dc34b4f001191b4f3db707cc52bac95baf17f0/LICENSE",
+          "view_url": "https://github.com/pydantic/pydantic/blob/37dc34b4f001191b4f3db707cc52bac95baf17f0/LICENSE",
+          "status": "fetched",
+          "sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3",
+          "bytes": 1129
+        }
+      ]
+    },
+    {
+      "repo": "pgvector/pgvector",
+      "url": "https://github.com/pgvector/pgvector",
+      "default_branch": "master",
+      "head_sha": "c82c81e22e48d32698e8d637442628f90ed84b8a",
+      "head_commit_date": "2026-10-23T10:09:23Z",
+      "pushed_at": "2026-10-24T00:48:16Z",
+      "archived": false,
+      "disabled": false,
+      "github_license_hint": "NOASSERTION",
+      "license_check_status": "root_source_license_files_read_not_full_distribution_or_dependency_audit",
+      "metadata_source": "https://api.github.com/repos/pgvector/pgvector",
+      "commit_source": "https://api.github.com/repos/pgvector/pgvector/commits?per_page=1",
+      "license_file_checks": [
+        {
+          "path": "LICENSE",
+          "source": "https://raw.githubusercontent.com/pgvector/pgvector/c82c81e22e48d32698e8d637442628f90ed84b8a/LICENSE",
+          "view_url": "https://github.com/pgvector/pgvector/blob/c82c81e22e48d32698e8d637442628f90ed84b8a/LICENSE",
+          "status": "fetched",
+          "sha256": "6bba9ebeb73e27477463b05e5ef1bf303bccbddb3db9bbc95905d351604d6a87",
+          "bytes": 1104
+        }
+      ]
+    },
+    {
+      "repo": "PaddlePaddle/PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "default_branch": "main",
+      "head_sha": "dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf",
+      "head_commit_date": "2026-09-16T03:30:53Z",
+      "pushed_at": "2026-09-16T03:31:50Z",
+      "archived": false,
+      "disabled": false,
+      "github_license_hint": "Apache-2.0",
+      "license_check_status": "root_source_license_files_read_not_full_distribution_or_dependency_audit",
+      "metadata_source": "https://api.github.com/repos/PaddlePaddle/PaddleOCR",
+      "commit_source": "https://api.github.com/repos/PaddlePaddle/PaddleOCR/commits?per_page=1",
+      "license_file_checks": [
+        {
+          "path": "LICENSE",
+          "source": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf/LICENSE",
+          "view_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf/LICENSE",
+          "status": "fetched",
+          "sha256": "3840c5c0c61c294264d2dd77b8777be6ddd90121ef4e0e64abcd22edea581d6e",
+          "bytes": 11376
+        }
+      ]
+    },
+    {
+      "repo": "modelscope/FunASR",
+      "url": "https://github.com/modelscope/FunASR",
+      "default_branch": "main",
+      "head_sha": "fbbfe01800a8c4c9103cb2150fb1a5d06cc64758",
+      "head_commit_date": "2026-10-22T17:56:34Z",
+      "pushed_at": "2026-10-22T17:56:34Z",
+      "archived": false,
+      "disabled": false,
+      "github_license_hint": "MIT",
+      "license_check_status": "root_source_license_files_read_not_full_distribution_or_dependency_audit",
+      "metadata_source": "https://api.github.com/repos/modelscope/FunASR",
+      "commit_source": "https://api.github.com/repos/modelscope/FunASR/commits?per_page=1",
+      "license_file_checks": [
+        {
+          "path": "LICENSE",
+          "source": "https://raw.githubusercontent.com/modelscope/FunASR/fbbfe01800a8c4c9103cb2150fb1a5d06cc64758/LICENSE",
+          "view_url": "https://github.com/modelscope/FunASR/blob/fbbfe01800a8c4c9103cb2150fb1a5d06cc64758/LICENSE",
+          "status": "fetched",
+          "sha256": "f382b62dcc61fc566b9215b1e3b604b539bfd96ed52ae1eeff5090f6dc176057",
+          "bytes": 1061
+        }
+      ]
+    },
+    {
+      "repo": "docling-project/docling",
+      "url": "https://github.com/docling-project/docling",
+      "default_branch": "main",
+      "head_sha": "53c11a20a5dd6ac0d85fe88cc257ca3b4b3a72d4",
+      "head_commit_date": "2026-10-23T15:00:16Z",
+      "pushed_at": "2026-10-23T16:01:55Z",
+      "archived": false,
+      "disabled": false,
+      "github_license_hint": "MIT",
+      "license_check_status": "root_source_license_files_read_not_full_distribution_or_dependency_audit",
+      "metadata_source": "https://api.github.com/repos/docling-project/docling",
+      "commit_source": "https://api.github.com/repos/docling-project/docling/commits?per_page=1",
+      "license_file_checks": [
+        {
+          "path": "LICENSE",
+          "source": "https://raw.githubusercontent.com/docling-project/docling/53c11a20a5dd6ac0d85fe88cc257ca3b4b3a72d4/LICENSE",
+          "view_url": "https://github.com/docling-project/docling/blob/53c11a20a5dd6ac0d85fe88cc257ca3b4b3a72d4/LICENSE",
+          "status": "fetched",
+          "sha256": "edb765d1e3e60d0c7a7d5fba5f2bb2c3c29f7465cecb5c22cf1185c884954e4c",
+          "bytes": 1072
+        }
+      ]
+    },
+    {
+      "repo": "minio/minio",
+      "url": "https://github.com/minio/minio",
+      "default_branch": "master",
+      "head_sha": "7aac2a2c5b7c882e68c1ce017d8256be2feea27f",
+      "head_commit_date": "2026-02-12T20:18:48Z",
+      "pushed_at": "2026-04-24T17:54:39Z",
+      "archived": true,
+      "disabled": false,
+      "github_license_hint": "AGPL-3.0",
+      "license_check_status": "root_source_license_files_read_not_full_distribution_or_dependency_audit",
+      "metadata_source": "https://api.github.com/repos/minio/minio",
+      "commit_source": "https://api.github.com/repos/minio/minio/commits?per_page=1",
+      "license_file_checks": [
+        {
+          "path": "LICENSE",
+          "source": "https://raw.githubusercontent.com/minio/minio/7aac2a2c5b7c882e68c1ce017d8256be2feea27f/LICENSE",
+          "view_url": "https://github.com/minio/minio/blob/7aac2a2c5b7c882e68c1ce017d8256be2feea27f/LICENSE",
+          "status": "fetched",
+          "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+          "bytes": 34523
+        }
+      ]
+    },
+    {
+      "repo": "redis/redis",
+      "url": "https://github.com/redis/redis",
+      "default_branch": "unstable",
+      "head_sha": "c039dd784ca6139314880631de162f65dda25d45",
+      "head_commit_date": "2026-10-24T02:42:58Z",
+      "pushed_at": "2026-10-24T02:42:59Z",
+      "archived": false,
+      "disabled": false,
+      "github_license_hint": "NOASSERTION",
+      "license_check_status": "root_source_license_files_read_not_full_distribution_or_dependency_audit",
+      "metadata_source": "https://api.github.com/repos/redis/redis",
+      "commit_source": "https://api.github.com/repos/redis/redis/commits?per_page=1",
+      "license_file_checks": [
+        {
+          "path": "LICENSE.txt",
+          "source": "https://raw.githubusercontent.com/redis/redis/c039dd784ca6139314880631de162f65dda25d45/LICENSE.txt",
+          "view_url": "https://github.com/redis/redis/blob/c039dd784ca6139314880631de162f65dda25d45/LICENSE.txt",
+          "status": "fetched",
+          "sha256": "4a0e416b9537688f30dfe69ddaceb2ca64d96b7df02a0a6760d376890ddc4e40",
+          "bytes": 72266
+        }
+      ]
+    },
+    {
+      "repo": "valkey-io/valkey",
+      "url": "https://github.com/valkey-io/valkey",
+      "default_branch": "unstable",
+      "head_sha": "5c6a0cdcf3209e7a14c376fe01ac278675c43423",
+      "head_commit_date": "2026-10-23T22:04:52Z",
+      "pushed_at": "2026-10-24T03:43:43Z",
+      "archived": false,
+      "disabled": false,
+      "github_license_hint": "BSD-3-Clause",
+      "license_check_status": "root_source_license_files_read_not_full_distribution_or_dependency_audit",
+      "metadata_source": "https://api.github.com/repos/valkey-io/valkey",
+      "commit_source": "https://api.github.com/repos/valkey-io/valkey/commits?per_page=1",
+      "license_file_checks": [
+        {
+          "path": "COPYING",
+          "source": "https://raw.githubusercontent.com/valkey-io/valkey/5c6a0cdcf3209e7a14c376fe01ac278675c43423/COPYING",
+          "view_url": "https://github.com/valkey-io/valkey/blob/5c6a0cdcf3209e7a14c376fe01ac278675c43423/COPYING",
+          "status": "fetched",
+          "sha256": "9a67d40ae9076cd60b9d228135a9c0ce5d60f84f0c54c472965d4e03fdeb8f8f",
+          "bytes": 1571
+        }
+      ]
+    },
+    {
+      "repo": "celery/celery",
+      "url": "https://github.com/celery/celery",
+      "default_branch": "main",
+      "head_sha": "bff6c2f5390c3abda5bb02bdd1eabb99891f5970",
+      "head_commit_date": "2026-10-24T03:52:49Z",
+      "pushed_at": "2026-10-24T03:52:49Z",
+      "archived": false,
+      "disabled": false,
+      "github_license_hint": "NOASSERTION",
+      "license_check_status": "root_source_license_files_read_not_full_distribution_or_dependency_audit",
+      "metadata_source": "https://api.github.com/repos/celery/celery",
+      "commit_source": "https://api.github.com/repos/celery/celery/commits?per_page=1",
+      "license_file_checks": [
+        {
+          "path": "LICENSE",
+          "source": "https://raw.githubusercontent.com/celery/celery/bff6c2f5390c3abda5bb02bdd1eabb99891f5970/LICENSE",
+          "view_url": "https://github.com/celery/celery/blob/bff6c2f5390c3abda5bb02bdd1eabb99891f5970/LICENSE",
+          "status": "fetched",
+          "sha256": "c358cdf77f28bbab50d4a754e123118339c15230349e82bf66489cece3ac093a",
+          "bytes": 2717
+        }
+      ]
+    },
+    {
+      "repo": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm",
+      "default_branch": "main",
+      "head_sha": "ecdc0f9ab9beacc13240078fa95c94a68c3248c4",
+      "head_commit_date": "2026-10-24T03:23:27Z",
+      "pushed_at": "2026-10-24T03:55:58Z",
+      "archived": false,
+      "disabled": false,
+      "github_license_hint": "NOASSERTION",
+      "license_check_status": "root_source_license_files_read_not_full_distribution_or_dependency_audit",
+      "metadata_source": "https://api.github.com/repos/BerriAI/litellm",
+      "commit_source": "https://api.github.com/repos/BerriAI/litellm/commits?per_page=1",
+      "license_file_checks": [
+        {
+          "path": "LICENSE",
+          "source": "https://raw.githubusercontent.com/BerriAI/litellm/ecdc0f9ab9beacc13240078fa95c94a68c3248c4/LICENSE",
+          "view_url": "https://github.com/BerriAI/litellm/blob/ecdc0f9ab9beacc13240078fa95c94a68c3248c4/LICENSE",
+          "status": "fetched",
+          "sha256": "b170d6bf8e8835dd357e011681db028f4d51e2fb0ea892058f56e01fb39b8273",
+          "bytes": 1419
+        }
+      ]
+    },
+    {
+      "repo": "langchain-ai/langgraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "default_branch": "main",
+      "head_sha": "4c52e129eb1ab69a3da58b799f67929f77d81149",
+      "head_commit_date": "2026-10-24T01:02:32Z",
+      "pushed_at": "2026-10-24T03:42:31Z",
+      "archived": false,
+      "disabled": false,
+      "github_license_hint": "MIT",
+      "license_check_status": "root_source_license_files_read_not_full_distribution_or_dependency_audit",
+      "metadata_source": "https://api.github.com/repos/langchain-ai/langgraph",
+      "commit_source": "https://api.github.com/repos/langchain-ai/langgraph/commits?per_page=1",
+      "license_file_checks": [
+        {
+          "path": "LICENSE",
+          "source": "https://raw.githubusercontent.com/langchain-ai/langgraph/4c52e129eb1ab69a3da58b799f67929f77d81149/LICENSE",
+          "view_url": "https://github.com/langchain-ai/langgraph/blob/4c52e129eb1ab69a3da58b799f67929f77d81149/LICENSE",
+          "status": "fetched",
+          "sha256": "d9bb52f2e3540d60ff50d8f0f5b6ba649b7fd346948c4c3d086c8afb120763c7",
+          "bytes": 1072
+        }
+      ]
+    },
+    {
+      "repo": "openai/whisper",
+      "url": "https://github.com/openai/whisper",
+      "default_branch": "main",
+      "head_sha": "86098128c0b4f24f0e2aa2994de830614b474227",
+      "head_commit_date": "2026-08-31T17:19:19Z",
+      "pushed_at": "2026-08-31T17:19:19Z",
+      "archived": false,
+      "disabled": false,
+      "github_license_hint": "MIT",
+      "license_check_status": "root_source_license_files_read_not_full_distribution_or_dependency_audit",
+      "metadata_source": "https://api.github.com/repos/openai/whisper",
+      "commit_source": "https://api.github.com/repos/openai/whisper/commits?per_page=1",
+      "license_file_checks": [
+        {
+          "path": "LICENSE",
+          "source": "https://raw.githubusercontent.com/openai/whisper/86098128c0b4f24f0e2aa2994de830614b474227/LICENSE",
+          "view_url": "https://github.com/openai/whisper/blob/86098128c0b4f24f0e2aa2994de830614b474227/LICENSE",
+          "status": "fetched",
+          "sha256": "b5d65a59060e68c4ff940e1eddfa6f94b2d68fdf58ed7f4dd57721c997e35e9d",
+          "bytes": 1063
+        }
+      ]
+    },
+    {
+      "repo": "pola-rs/polars",
+      "url": "https://github.com/pola-rs/polars",
+      "default_branch": "main",
+      "head_sha": "633cae6b2b384ca7a83f75b3c4648a46b842d4ed",
+      "head_commit_date": "2026-10-23T14:11:28Z",
+      "pushed_at": "2026-10-23T18:54:31Z",
+      "archived": false,
+      "disabled": false,
+      "github_license_hint": "MIT",
+      "license_check_status": "root_source_license_files_read_not_full_distribution_or_dependency_audit",
+      "metadata_source": "https://api.github.com/repos/pola-rs/polars",
+      "commit_source": "https://api.github.com/repos/pola-rs/polars/commits?per_page=1",
+      "license_file_checks": [
+        {
+          "path": "LICENSE",
+          "source": "https://raw.githubusercontent.com/pola-rs/polars/633cae6b2b384ca7a83f75b3c4648a46b842d4ed/LICENSE",
+          "view_url": "https://github.com/pola-rs/polars/blob/633cae6b2b384ca7a83f75b3c4648a46b842d4ed/LICENSE",
+          "status": "fetched",
+          "sha256": "8296022372dc83cc8ef234b3d4889ef8f8b1779754a78bebf13d2c5178a6b4c4",
+          "bytes": 1145
+        }
+      ]
+    },
+    {
+      "repo": "apache/echarts",
+      "url": "https://github.com/apache/echarts",
+      "default_branch": "master",
+      "head_sha": "34f4d927eafe251f26f63afd3aeefa30f2feba30",
+      "head_commit_date": "2026-10-04T10:59:16Z",
+      "pushed_at": "2026-10-13T09:27:20Z",
+      "archived": false,
+      "disabled": false,
+      "github_license_hint": "Apache-2.0",
+      "license_check_status": "root_source_license_files_read_not_full_distribution_or_dependency_audit",
+      "metadata_source": "https://api.github.com/repos/apache/echarts",
+      "commit_source": "https://api.github.com/repos/apache/echarts/commits?per_page=1",
+      "license_file_checks": [
+        {
+          "path": "LICENSE",
+          "source": "https://raw.githubusercontent.com/apache/echarts/34f4d927eafe251f26f63afd3aeefa30f2feba30/LICENSE",
+          "view_url": "https://github.com/apache/echarts/blob/34f4d927eafe251f26f63afd3aeefa30f2feba30/LICENSE",
+          "status": "fetched",
+          "sha256": "634293835b43a6dd2094fa39182a3d9a6b9ca43b7fdb9ac354e8037af2a3093a",
+          "bytes": 11990
+        }
+      ]
+    },
+    {
+      "repo": "LibreOffice/core",
+      "url": "https://github.com/LibreOffice/core",
+      "default_branch": "master",
+      "head_sha": "ebadf814be48fedb81463883dd88661f71390dc5",
+      "head_commit_date": "2026-10-23T22:29:46Z",
+      "pushed_at": "2026-10-23T22:33:54Z",
+      "archived": false,
+      "disabled": false,
+      "github_license_hint": "GPL-3.0",
+      "license_check_status": "official_distribution_page_read_github_single_license_hint_is_incomplete",
+      "metadata_source": "https://api.github.com/repos/LibreOffice/core",
+      "commit_source": "https://api.github.com/repos/LibreOffice/core/commits?per_page=1",
+      "official_license_source": "https://www.libreoffice.org/licenses/",
+      "official_summary": "MPL 2.0 distribution, with third-party licenses depending on version; inspect LICENSE in actual installer. Do not treat the GitHub GPL-3.0 hint as complete."
+    },
+    {
+      "repo": "seaweedfs/seaweedfs",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "default_branch": "master",
+      "head_sha": "81e0859c122c9a827eab9487aea163387c476b77",
+      "head_commit_date": "2026-10-24T03:54:52Z",
+      "pushed_at": "2026-10-24T04:00:45Z",
+      "archived": false,
+      "disabled": false,
+      "github_license_hint": "Apache-2.0",
+      "metadata_source": "https://api.github.com/repos/seaweedfs/seaweedfs",
+      "commit_source": "https://api.github.com/repos/seaweedfs/seaweedfs/commits?per_page=1",
+      "license_file_checks": [
+        {
+          "path": "LICENSE",
+          "source": "https://raw.githubusercontent.com/seaweedfs/seaweedfs/81e0859c122c9a827eab9487aea163387c476b77/LICENSE",
+          "view_url": "https://github.com/seaweedfs/seaweedfs/blob/81e0859c122c9a827eab9487aea163387c476b77/LICENSE",
+          "status": "fetched",
+          "sha256": "d789d433cc11da163273d1e39be2e8fa67642f9a58ef220d3f258fa9c14ef613",
+          "bytes": 11337
+        }
+      ],
+      "license_check_status": "root_source_license_files_read_not_full_distribution_or_dependency_audit"
+    }
+  ]
+}
