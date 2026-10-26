@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.exe
+*.glb
+*.png
+*.bin
+*.log
+.env*
+runtime/
+vendor/
+dist/
+node_modules/

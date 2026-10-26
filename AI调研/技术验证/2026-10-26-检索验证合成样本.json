@@ -1,0 +1,42 @@
+{
+  "fixture_revision": 1,
+  "status": "prepared_not_executed",
+  "all_data_fictitious": true,
+  "experiments": ["EXP-06", "EXP-08"],
+  "scope": "固定候选检索与授权反例；未运行检索引擎、嵌入模型、AI或业务接口；不是longshi现行权限或统计制度",
+  "actors": ["demo_employee_a", "demo_employee_b", "demo_boss"],
+  "policy": "read_subjects只用于本虚构场景；同一文件不同片段分别授权，实际产品仍由可信业务服务核权",
+  "fragments": [
+    {"id": "demo:a@2", "file": "demo:file-a", "version": 2, "current": true, "indexed": true, "order": "DEMO-A-001", "kind": "confirmed_business_result", "text": "虚构订单DEMO-A-001：本批加工2件已有确认，检验状态待核。", "read_subjects": ["demo_employee_a", "demo_boss"]},
+    {"id": "demo:a@1", "file": "demo:file-a", "version": 1, "current": false, "indexed": true, "order": "DEMO-A-001", "kind": "superseded_business_result", "text": "虚构订单DEMO-A-001：旧版登记加工1件，已由版本2更正替代。", "read_subjects": ["demo_employee_a", "demo_boss"]},
+    {"id": "demo:a-plan@1", "file": "demo:file-plan", "version": 1, "current": true, "indexed": true, "order": "DEMO-A-001", "kind": "unconfirmed_plan", "text": "虚构沟通：计划安排6件，交期可能推迟，尚未确认实际变化。", "read_subjects": ["demo_employee_a", "demo_boss"]},
+    {"id": "demo:b@1", "file": "demo:file-b", "version": 1, "current": true, "indexed": true, "order": "DEMO-A-010", "kind": "confirmed_business_result", "text": "另一虚构订单DEMO-A-010：本批加工3件已有确认。", "read_subjects": ["demo_employee_b", "demo_boss"]},
+    {"id": "demo:summary@1", "file": "demo:mixed-file", "version": 1, "current": true, "indexed": true, "order": "DEMO-A-001", "kind": "progress_summary", "text": "虚构进度摘要引用DEMO-A-001的同一加工确认，不是新增的一批数量。", "read_subjects": ["demo_employee_a", "demo_boss"]},
+    {"id": "demo:cost@1", "file": "demo:mixed-file", "version": 1, "current": true, "indexed": true, "order": "DEMO-A-001", "kind": "restricted_cost_note", "text": "虚构内部成本说明：示例单件成本88元；仅用于片段权限测试。", "read_subjects": ["demo_boss"]},
+    {"id": "demo:manual@1", "file": "demo:manual", "version": 1, "current": true, "indexed": true, "order": null, "kind": "instruction", "text": "虚构作业要求：加工后应自检并记录。此条款不证明任何订单已经自检。", "read_subjects": ["demo_employee_a", "demo_employee_b", "demo_boss"]},
+    {"id": "demo:new-note@1", "file": "demo:new-note", "version": 1, "current": true, "indexed": false, "order": null, "kind": "unprocessed_note", "text": "虚构新收到的客户变更资料，已保存但尚未进入本次检索索引。", "read_subjects": ["demo_boss"]}
+  ],
+  "business_snapshot": {
+    "id": "demo:snapshot-1",
+    "definition": "仅本虚构快照内的当前有效加工确认数量；不是公司业绩口径，不跨阶段相加",
+    "unit": "件",
+    "complete_for_this_fixture": true,
+    "records": [
+      {"id": "demo:result-a@2", "order": "DEMO-A-001", "quantity": 2, "evidence": ["demo:a@2"], "read_subjects": ["demo_employee_a", "demo_boss"]},
+      {"id": "demo:result-b@1", "order": "DEMO-A-010", "quantity": 3, "evidence": ["demo:b@1"], "read_subjects": ["demo_employee_b", "demo_boss"]}
+    ]
+  },
+  "cases": [
+    {"id": "Q01", "actor": "demo_employee_a", "query": "查DEMO-A-001当前的加工确认", "task": "exact_id_and_current_version", "must_support": ["demo:a@2"], "must_not_use_as_current": ["demo:a@1"], "must_not_send_to_model": ["demo:b@1", "demo:cost@1"], "note": "相近编号不能替代精确编号；历史可按规则另看但须标识"},
+    {"id": "Q02", "actor": "demo_employee_a", "query": "有没有交货时间往后延的沟通", "task": "semantic_candidate_not_fact", "relevant_candidates": ["demo:a-plan@1"], "must_preserve": "可能、计划及未确认性质", "note": "只标候选相关性，未运行嵌入或确定召回阈值，不据此说实际已经延期"},
+    {"id": "Q03", "actor": "demo_employee_a", "query": "查看DEMO-A-010的资料", "task": "deny_unauthorized_source", "must_not_return_or_send_to_model": ["demo:b@1"], "expected_response_class": "no_accessible_result_without_disclosing_restricted_existence"},
+    {"id": "Q04", "actor": "demo_employee_a", "query": "查看这份资料里的进度和成本", "context_file": "demo:mixed-file", "task": "fragment_permission", "allowed_fragments": ["demo:summary@1"], "must_not_return_or_send_to_model": ["demo:cost@1"], "note": "不能先送整个文件再在回答中隐藏成本"},
+    {"id": "Q05", "actor": "demo_boss", "query": "DEMO-A-001当前确认加工多少件", "task": "formal_query_not_search_sum", "required_business_snapshot": "demo:snapshot-1", "required_record": "demo:result-a@2", "expected_quantity": 2, "unit": "件", "must_not_sum": ["demo:a@1", "demo:a-plan@1", "demo:summary@1"]},
+    {"id": "Q06", "actor": "demo_boss", "query": "这个虚构快照里当前有效加工确认一共多少件", "task": "authorized_complete_business_query", "required_business_snapshot": "demo:snapshot-1", "expected_record_ids": ["demo:result-a@2", "demo:result-b@1"], "expected_quantity": 5, "unit": "件", "note": "5仅由本快照两条正式记录得出，不数命中篇数、不加计划/旧版/重复摘要"},
+    {"id": "Q07", "actor": "demo_employee_a", "query": "再次打开刚才的DEMO-A-001结果", "task": "revocation_before_publish", "policy_change": {"remove_actor_from": ["demo:a@2", "demo:a@1", "demo:summary@1"]}, "must_not_reuse_after_revocation": ["demo:a@2", "demo:a@1", "demo:summary@1"], "note": "结果领取、来源回看和模型上下文复用须核当前权；不是已实现撤权机制"},
+    {"id": "Q08", "actor": "demo_boss", "query": "新收到的客户变更资料在哪里", "task": "index_coverage", "not_indexed_yet": ["demo:new-note@1"], "must_explain": "本次检索未覆盖所有已保存资料", "must_not_claim": "公司没有这份资料", "note": "允许的资料目录/元数据可另找；索引无命中不能证明资料不存在"},
+    {"id": "Q09", "actor": "demo_employee_a", "query": "DEMO-A-001是不是已经完成自检", "task": "instruction_vs_actual_event", "instruction_source": "demo:manual@1", "expected_response_class": "insufficient_actual_confirmation", "must_not_claim": "仅因规范写应自检便判定该订单已自检"},
+    {"id": "Q10", "actor": "demo_boss", "query": "这张单怎么样了", "context_order": null, "task": "clarify_missing_referent", "expected_response_class": "clarify_order_before_specific_progress", "must_not_claim": "把相似度第一名当成用户所指订单"}
+  ],
+  "acceptance_limits": "本文件仅为虚构语料、相关性/拒绝预期及可复用输入。文件引用完整与算术核对不是检索、权限、AI或正式统计测试通过。实际实验须记录组件版本、输入身份、权限过滤位置、候选/重排/模型上下文、来源及错误。"
+}

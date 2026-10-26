@@ -1,0 +1,11 @@
+{
+  "dataset_id": "synthetic-company-demo-v1",
+  "synthetic": true,
+  "deliveries": [
+    {"date": "2099-01-01", "delivery_no": "DEMO-A001", "product": "虚构零件甲", "amount": "100.00"},
+    {"date": "2099-01-02", "delivery_no": "DEMO-A002", "product": "虚构零件乙", "amount": "200.00"}
+  ],
+  "adjustment": "-20.00",
+  "adjustment_reason": "虚构调整，用于检查口径差异",
+  "payment_evidence": []
+}

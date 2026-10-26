@@ -61,3 +61,7 @@ Desktop.ini
 /AI调研/资料分析/
 /AI调研/技术验证/旧表单OCR核对记录.json
 /项目放github私有仓库.txt
+
+# Newly received originals and operational workbooks remain local for public handoff.
+/所有部门文档版本/
+/AI调研/网络运营调研/outputs/

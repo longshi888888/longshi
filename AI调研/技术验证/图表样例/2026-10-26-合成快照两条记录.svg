@@ -1,0 +1,50 @@
+<svg width="900" height="460" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 900 460">
+<rect width="900" height="460" x="0" y="0" fill="#ffffff"></rect>
+<text dominant-baseline="central" text-anchor="start" style="font-size:16px;font-family:sans-serif;" xml:space="preserve" y="8" transform="translate(723.56 91)" fill="#263746">获准范围合计：5 件</text>
+<path d="M75 395.5L858 395.5" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr1-cls-2"></path>
+<path d="M75 367.5L858 367.5" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr1-cls-2"></path>
+<path d="M75 340.5L858 340.5" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr1-cls-2"></path>
+<path d="M75 312.5L858 312.5" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr1-cls-2"></path>
+<path d="M75 285.5L858 285.5" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr1-cls-2"></path>
+<path d="M75 257.5L858 257.5" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr1-cls-2"></path>
+<path d="M75 230.5L858 230.5" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr1-cls-2"></path>
+<path d="M75 202.5L858 202.5" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr1-cls-2"></path>
+<path d="M75 175.5L858 175.5" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr1-cls-2"></path>
+<path d="M75 147.5L858 147.5" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr1-cls-2"></path>
+<path d="M75 120.5L858 120.5" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr1-cls-2"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="-6" transform="translate(75 105)" fill="#54555a">数量（件）</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:Microsoft YaHei;" transform="translate(873 395)" fill="#54555a">订单</text>
+<path d="M75 395.5L858 395.5" fill="none" pointer-events="visible" stroke="#54555a" stroke-linecap="round" class="zr1-cls-2"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" transform="translate(67 395)" fill="#54555a">0</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" transform="translate(67 367.5)" fill="#54555a">1</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" transform="translate(67 340)" fill="#54555a">2</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" transform="translate(67 312.5)" fill="#54555a">3</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" transform="translate(67 285)" fill="#54555a">4</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" transform="translate(67 257.5)" fill="#54555a">5</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" transform="translate(67 230)" fill="#54555a">6</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" transform="translate(67 202.5)" fill="#54555a">7</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" transform="translate(67 175)" fill="#54555a">8</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" transform="translate(67 147.5)" fill="#54555a">9</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;" transform="translate(67 120)" fill="#54555a">10</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(270.75 403)" fill="#54555a">DEMO-A-001</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" y="6" transform="translate(662.25 403)" fill="#54555a">DEMO-A-010</text>
+<path d="M227.8 395l86 0l0 -55l-86 0Z" fill="#327b9b" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr1-cls-3"></path>
+<path d="M619.3 395l86 0l0 -82.5l-86 0Z" fill="#327b9b" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr1-cls-3"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" y="-6" transform="translate(270.75 335)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">2 件</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" y="-6" transform="translate(662.25 307.5)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">3 件</text>
+<path d="M-5 -5l212.3 0l0 53l-212.3 0Z" transform="translate(33 19)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#3c3c41" stroke-width="0" class="zr1-cls-2"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:20px;font-family:Microsoft YaHei;font-weight:bold;" y="10" transform="translate(33 19)" fill="#3c3c41">虚构快照加工确认数量</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:Microsoft YaHei;" xml:space="preserve" y="36.5" transform="translate(33 19)" fill="#86878c">获准虚构快照范围 · 不代表全公司</text>
+<style ><![CDATA[
+.zr1-cls-2:hover {
+pointer-events:none;
+}
+.zr1-cls-3:hover {
+cursor:pointer;
+fill:rgba(55,135,170,1);
+}
+
+]]>
+
+</style>
+</svg>
