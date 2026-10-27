@@ -1,0 +1,3 @@
+﻿order_id,demand_qty,range_id,range_stage,range_quantity,total_processed,due_date,requested_due,requested_due_status,version,task_state,task_overdue
+O-TRACK-A,10,range-A,processing,3,未知,未知,未知,未知,2,pending,未知
+O-TRACK-B,未知,未知,未知,未知,未知,2030-05-10,2030-05-09,pending,1,pending,True
